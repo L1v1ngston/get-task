@@ -11,12 +11,12 @@ printLn((year mod 4 = 0) and ((year mod 400 = 0) or (year mod 100 <> 0)));
 {2}
 
 
-{printLn('Секунд в минуте:60');
+printLn('Секунд в минуте:60');
 
 {3}
 
  
-{printLn('Введите 2 даты');
+printLn('Введите 2 даты');
 var (D1,M1,D2,M2):=ReadInteger4;
 Assert((D1 > 0) and (M1 > 0) and (D2 > 0) and (M2 > 0));
 if m2 > m1 then
