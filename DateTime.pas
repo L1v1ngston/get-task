@@ -32,7 +32,7 @@ Else
 {4}
 
 
-{printLn;
+printLn;
 var N:=ReadInteger('Введите год');
 Assert(N > 0,'N > 0');
 if (year mod 4 = 0) and ((year mod 400 = 0) or (year mod 100 <> 0)) then
